@@ -260,7 +260,7 @@ export const PROJECTS: ProjectDetails[] = [
   {
     name: "Wingie",
     description:
-      "Led the frontend product delivery of a travel booking platform that allows users to compare and purchase flight tickets easily. Worked closely with design, backend, and QA to ship new features and improve UX performance.",
+      "Led the product delivery of a travel booking platform that allows users to compare and purchase flight tickets easily. Worked closely with design, backend, and QA to ship new features and improve UX performance.",
     url: "https://www.wingie.com",
     previewImage: ProjectWingie,
     technologies: [
@@ -314,6 +314,7 @@ export const TESTIMONIALS: TestimonialDetails[] = [
       "Chiagozie was incredibly easy to work with and brought a unique product-first mindset to the table. He cared deeply about the success of the project, asked the right questions, and delivered solutions that balanced user needs with business goals.",
   },
 ];
+
 
 
 
