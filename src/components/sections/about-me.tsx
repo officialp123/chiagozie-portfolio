@@ -34,50 +34,45 @@ const AboutMeSection = () => {
             Curious about me? Here you have it:
           </Typography>
           <Typography>
-            I&apos;m a passionate,{' '}
-            <Link
-              noCustomization
-              externalLink
-              withUnderline
-              href={EXTERNAL_LINKS.LINKEDIN}
-            >
-              self-proclaimed developer
-            </Link>{' '} with over 7 years of experience in front-end development, including 5 years of expertise
-with Webflow. Specializes in creating user-focused, conversion-driven designs for complex single-page applications (SPAs). I am
-            enthusiastic about bringing the technical and visual aspects of
-            digital products to life. User experience, pixel-perfect design, and
-            writing clear, readable, highly performant code matters to me.
-          </Typography>
-          <Typography>
-            I&apos;m committed to adhering to best practices in accessibility, performance optimization, and production monitoring, ensuring that my projects are both user-friendly and performant. I thrive in collaborative environments and am a strong communicator, always eager to share knowledge and learn from others I&apos;m building cutting-edge web applications using
-            modern technologies such as HTML, CSS, JS, TypeScript, Reactjs and much more.
-          </Typography>
-          <Typography>
-            I am very much a progressive thinker and enjoy working on products
-            end to end, from ideation all the way to development.
-          </Typography>
-          <Typography>
-            I&apos;m constantly seeking new challenges and pushing the boundaries of what&apos;s possible in web development. I believe that technology has the power to make a positive impact on the world, and I&apos;m excited to contribute my skills to projects that make a difference. you can take a look at my{' '}
-            <Link
-              noCustomization
-              externalLink
-              withUnderline
-              href={EXTERNAL_LINKS.LINKEDIN}
-            >
-              LinkedIn
-            </Link>{' '}
-            where I share all my experiences, or you can
-            follow me on{' '}
-            <Link
-              noCustomization
-              externalLink
-              withUnderline
-              href={EXTERNAL_LINKS.GITHUB}
-            >
-              GitHub
-            </Link>
-            .
-          </Typography>
+  I&apos;m a strategic,{' '}
+  <Link
+    noCustomization
+    externalLink
+    withUnderline
+    href={EXTERNAL_LINKS.LINKEDIN}
+  >
+    product and project manager
+  </Link>{' '}
+  with a strong technical foundation and over 7 years of experience in the digital product space, including 5 years working with Webflow and modern frontend technologies. I specialize in leading cross-functional teams to deliver user-centered, scalable solutions — from concept to deployment. My approach blends design thinking, agile execution, and technical fluency to build products that meet real-world needs.
+</Typography>
+<Typography>
+  I&apos;m committed to delivering outcomes through a balance of user empathy, roadmap clarity, and technical oversight. I actively drive accessibility, performance optimization, and team collaboration — ensuring that what we ship is fast, functional, and loved by users. With hands-on skills in HTML, CSS, JavaScript, TypeScript, and React, I’m equally comfortable managing timelines as I am jumping into code reviews.
+</Typography>
+<Typography>
+  I take pride in working end to end — from strategic ideation and sprint planning to execution and launch. Whether leading a 0→1 product or scaling an existing platform, I bring structured thinking, curiosity, and energy to every phase of the product lifecycle.
+</Typography>
+<Typography>
+  I&apos;m always exploring new ways to improve delivery, increase impact, and inspire great teams. Technology should solve real problems — and I’m excited to contribute my skills to products that do exactly that. Feel free to explore my{' '}
+  <Link
+    noCustomization
+    externalLink
+    withUnderline
+    href={EXTERNAL_LINKS.LINKEDIN}
+  >
+    LinkedIn
+  </Link>{' '}
+  for my latest projects or connect via{' '}
+  <Link
+    noCustomization
+    externalLink
+    withUnderline
+    href={EXTERNAL_LINKS.GITHUB}
+  >
+    GitHub
+  </Link>
+  .
+</Typography>
+
          <Typography>Finally, some quick bits about me.</Typography>
           <div className="flex flex-col gap-2 md:flex-row md:gap-6">
             <ul className="flex list-inside list-disc flex-col gap-2">
@@ -104,3 +99,4 @@ with Webflow. Specializes in creating user-focused, conversion-driven designs fo
 };
 
 export default AboutMeSection;
+
