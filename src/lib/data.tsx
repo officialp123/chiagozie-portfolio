@@ -295,25 +295,26 @@ export const TESTIMONIALS: TestimonialDetails[] = [
   {
     personName: "Krisztian Gyuris",
     personAvatar: AvatarKrisztian,
-    title: "Founder - inboxgenie.io",
+    title: "Founder – inboxgenie.io",
     testimonial:
-      "Job well done! I am really impressed. He is very very good at what he does:) I would recommend Chiagozie and will rehire in the future for Frontend development.",
+      "Job well done! I was truly impressed with Chiagozie’s ability to take ownership of both product direction and execution. He brought structure, speed, and clarity to the process — a rare combination of technical depth and product leadership.",
   },
   {
     personName: "Eugen Esanu",
     personAvatar: AvatarEugen,
-    title: "Founder - shosho.design",
+    title: "Founder – shosho.design",
     testimonial:
-      "Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.",
+      "Chiagozie is highly recommended for any product-focused role that demands both strategic thinking and technical fluency. His ability to simplify complex ideas and align cross-functional teams is exceptional. He’s a true asset to any product team.",
   },
   {
     personName: "Joe Matkin",
     personAvatar: AvatarDummy,
     title: "Freelancer",
     testimonial:
-      "Chiagozie was extremely easy and pleasant to work with and he truly cares about the project being a success. Chiagozie has a high level of knowledge and was able to work on my MERN stack application without any issues.",
+      "Chiagozie was incredibly easy to work with and brought a unique product-first mindset to the table. He cared deeply about the success of the project, asked the right questions, and delivered solutions that balanced user needs with business goals.",
   },
 ];
+
 
 
 
