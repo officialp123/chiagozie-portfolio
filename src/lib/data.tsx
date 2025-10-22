@@ -15,7 +15,11 @@ import LogoCypressLight from "/public/images/logos/icon-cypress-light.svg";
 import LogoStorybook from "/public/images/logos/icon-storybook.svg";
 import LogoGit from "/public/images/logos/icon-git.svg";
 import LogoWebflow from "/public/images/logos/icon-webflow.svg";
+import YPCLogo from "/public/images/logos/YPCLogo.jpg";
+import Kreatoors from "/public/images/logos/kreatoors.jpg";
+import NovaTech from "/public/images/logos/NovaTech.jpg";
 import LogoWordpress from "/public/images/logos/icon-wordpress.svg";
+
 
 import HelloME from "/public/images/logos/hellomeltd_logo.jpeg";
 import TechIt from "/public/images/logos/techit.jpeg";
@@ -182,41 +186,55 @@ export const TECHNOLOGIES: TechDetails[] = [
 
 export const EXPERIENCES: ExperienceDetails[] = [
   {
+    logo: NovaTech,
+    logoAlt: "Novatech logo",
+    position: "Senior Product Manager",
+    startDate: new Date(2021, 0),
+    endDate: null, // Current role
+    summary: [
+      "Own the roadmap and product lifecycle for a B2B collaboration platform with over 50K users across NA and EU.",
+      "Led 24+ Agile releases with 95% on-time delivery by coordinating cross-functional pods across engineering, design, and QA.",
+      "Launched a 0→1 analytics dashboard that drove a 38% increase in DAUs within 3 months.",
+      "Conducted 100+ user interviews to inform product strategy, reducing churn by 27% YoY.",
+      "Collaborated with Sales and Success teams on GTM planning, MVP definition, and OKRs for quarterly planning cycles.",
+    ],
+  },
+  {
+    logo: Kreatoors,
+    logoAlt: "Kreatoors logo",
+    position: "Product Manager & Software Developer (Contract)",
+    startDate: new Date(2025, 3),
+    endDate: new Date(2025, 6),
+    summary: [
+      "Led end-to-end MVP development for an early-stage SaaS platform, balancing product ownership and engineering execution.",
+      "Collaborated with founders to define product requirements, roadmap, and success metrics.",
+      "Developed and shipped core platform features using modern frontend/backend stacks, achieving 3-month MVP launch.",
+      "Established Agile delivery practices, improving sprint velocity and reducing cycle time by 20%.",
+    ],
+  },
+  {
+    logo: YPCLogo,
+    logoAlt: "YPC Global logo",
+    position: "Founder",
+    startDate: new Date(2021, 8),
+    endDate: new Date(2023, 11),
+    summary: [
+      "Founded and scaled a digital product agency serving SMBs with web-based solutions across multiple industries.",
+      "Oversaw product development, client strategy, and cross-functional delivery teams to support over 25 successful launches.",
+      "Closed multi-million dollar contracts through consultative product selling and pipeline strategy — increasing win rate by 22% YoY.",
+    ],
+  },
+  {
     logo: TechIt,
-    logoAlt: "Techit logo",
-    position: "Senior Frontend Developer",
-    startDate: new Date(2023, 7),
-    endDate: new Date(2023, 10),
+    logoAlt: "TechIt logo",
+    position: "Product Manager",
+    startDate: new Date(2019, 11),
+    endDate: new Date(2021, 0),
     summary: [
-      "Ensured high code quality through thorough code reviews and automated testing, resulting in a 30% reduction in bugs and technical debt.",
-      "Played a key role in streamlining warehouse workflows, enhancing operational efficiency and reducing processing times by 15%.",
-      "Actively contributed to agile team practices, driving continuous improvements and fostering a collaborative team environment.",
-    ],
-  },
-  {
-    logo: HelloME,
-    darkModeLogo: HelloME,
-    logoAlt: "HelloME logo",
-    position: "Contract Frontend Developer and Webflow Expert",
-    startDate: new Date(2023, 6),
-    endDate: new Date(2023, 7),
-    summary: [
-      "Successfully designed and developed over 20 web projects using Webflow, resulting in high client satisfaction and positive feedback.",
-      "Collaborated with clients and cross-functional teams on 15+ projects, ensuring clear understanding of project requirements and seamless translation of design concepts into functional Webflow sites.",
-      "Implemented responsive design principles on all projects, resulting in improved user experiences and increased mobile responsiveness, leading to a 30% decrease in bounce rate.",
-    ],
-  },
-  {
-    logo: Tjtek,
-    darkModeLogo: Tjtek,
-    logoAlt: "tjtek logo",
-    position: "Senior Web Developer",
-    startDate: new Date(2023, 0),
-    endDate: new Date(2023, 5),
-    summary: [
-      "Led the development of 7 web applications using ReactJS and TypeScript stack, resulting in a 98% customer satisfaction rate.",
-      "Collaborated with designers and backend developers on 10 projects to deliver seamless user experiences and reduce bounce rates by 18%.",
-      "Successfully integrated RESTful APIs and Node.js backend technologies in 10+ projects, enabling seamless data exchange and reducing development time by 20%.",
+      "Promoted from Associate Product Manager after 12 months due to strong execution and product ownership.",
+      "Improved onboarding speed by 50% and increased NPS by +12 through key UX-driven platform updates.",
+      "Partnered with UX and Dev teams to increase feature adoption by 18% through iterative usability testing.",
+      "Led backlog grooming, sprint planning, and bi-weekly shipping cadence in an Agile environment.",
     ],
   },
 ];
@@ -299,6 +317,7 @@ export const TESTIMONIALS: TestimonialDetails[] = [
       "Chiagozie was extremely easy and pleasant to work with and he truly cares about the project being a success. Chiagozie has a high level of knowledge and was able to work on my MERN stack application without any issues.",
   },
 ];
+
 
 
 
