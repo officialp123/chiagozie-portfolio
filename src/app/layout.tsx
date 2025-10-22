@@ -1,7 +1,7 @@
 import Script from "next/script";
 import { Inter } from "next/font/google";
 import { Metadata } from "next";
-import { Analytics } from "@vercel/analytics/react"; // Correct import from @vercel/analytics/react
+import { Analytics } from "@vercel/analytics/react";
 
 import "./globals.css";
 import Header from "@/components/layout/header";
@@ -10,16 +10,24 @@ import Footer from "@/components/layout/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const title = "Chiagozie Uchenna | Software Developer | frontend developer";
+const title = "Chiagozie Uchenna | Product Manager + Technical Strategist";
 const description =
-  "A self-proclaimed designer who specializes in frontend development, from Anambra, Nigeria.";
+  "Product leader with technical expertise. I help companies design, build, and scale user-centric digital experiences from MVP to market traction.";
 const url = "https://www.linkedin.com/in/chiagozie-uchenna/";
 
 export const metadata: Metadata = {
   metadataBase: new URL(url),
   title,
   description,
-  keywords: ["Frontend Developer", "React Developer", "JavaScript Developer"],
+  keywords: [
+    "Product Manager",
+    "Technical Product Manager",
+    "SaaS Product",
+    "Agile PM",
+    "Project Manager",
+    "JavaScript",
+    "Frontend Developer",
+  ],
   creator: "Chiagozie Uchenna",
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "white" },
@@ -68,12 +76,11 @@ export default function RootLayout({
           ></Script>
           <Script id="google-anayltics-script">
             {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-          
-            gtag('config', '${googleAnalyticsId}');
-          `}
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${googleAnalyticsId}');
+            `}
           </Script>
         </head>
       ) : null}
@@ -83,7 +90,7 @@ export default function RootLayout({
           <main className="flex min-h-screen w-full flex-col">{children}</main>
           <Footer />
         </Providers>
-        <Analytics /> {/* Correctly added Analytics component */}
+        <Analytics />
       </body>
     </html>
   );
