@@ -190,7 +190,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     logoAlt: "Novatech logo",
     position: "Senior Product Manager",
     startDate: new Date(2021, 0),
-    endDate: null, // Current role
+    endDate: undefined, // Current role
     summary: [
       "Own the roadmap and product lifecycle for a B2B collaboration platform with over 50K users across NA and EU.",
       "Led 24+ Agile releases with 95% on-time delivery by coordinating cross-functional pods across engineering, design, and QA.",
@@ -317,6 +317,7 @@ export const TESTIMONIALS: TestimonialDetails[] = [
       "Chiagozie was extremely easy and pleasant to work with and he truly cares about the project being a success. Chiagozie has a high level of knowledge and was able to work on my MERN stack application without any issues.",
   },
 ];
+
 
 
 
