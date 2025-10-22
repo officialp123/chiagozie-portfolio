@@ -30,11 +30,14 @@ const HeroSection = () => {
               Hi, I&apos;m Chiagozie{' '}
               <span className="inline-block animate-waving-hand">👋</span>
             </Typography>
-            <Typography>
-              I&apos;m a passionate frontend developer with a focus
-              on creating (and occasionally designing) exceptional digital
-              experiences and a strong foundation in Webflow, HTML, CSS, JavaScript, and TypeScript. I&apos;m driven to craft elegant and efficient web applications that deliver exceptional user experiences. My expertise lies in leveraging modern frameworks like React to build high-quality, scalable solutions that meet the demands of today&apos;s digital landscape.
-            </Typography>
+           <Typography>
+  Hi, I&apos;m Chiagozie 👋 I&apos;m a product leader with a strong foundation in
+  frontend development and a passion for building intuitive, scalable digital
+  experiences. I bring hands-on expertise in Webflow, HTML, CSS, JavaScript,
+  and TypeScript, and I use frameworks like React to bridge the gap between
+  product vision and technical execution. My focus is delivering high-impact
+  solutions that users love and businesses need.
+</Typography>
           </div>
           <div className="flex flex-col gap-2">
             <div className="flex gap-2">
@@ -60,3 +63,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
