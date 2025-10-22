@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import SagarFullPose from '/public/images/chiagozie-full-pose.jpg';
+import SagarFullPose from '/public/images/chiagozie-full-pose.png';
 import Tag from '@/components/data-display/tag';
 import Container from '@/components/layout/container';
 import Typography from '@/components/general/typography';
@@ -99,5 +99,6 @@ const AboutMeSection = () => {
 };
 
 export default AboutMeSection;
+
 
 
