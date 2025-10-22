@@ -25,7 +25,8 @@ import HelloME from "/public/images/logos/hellomeltd_logo.jpeg";
 import TechIt from "/public/images/logos/techit.jpeg";
 import Tjtek from "/public/images/logos/tjtek.jpeg";
 
-import ProjectHallowen from "/public/images/hallowen.png";
+import ProjectKreatoors from "/public/images/Kreatoors.png";
+import ProjectHelloME from "/public/images/Hellome.png";
 import ProjectWingie from "/public/images/project-wingie.png";
 import ProjectCosmetic from "/public/images/cosmetic-republic.png";
 import ProjectCresent from "/public/images/cresent-university.png";
@@ -241,17 +242,25 @@ export const EXPERIENCES: ExperienceDetails[] = [
 
 export const PROJECTS: ProjectDetails[] = [
   {
-    name: "Halloween",
+    name: "Kreatoors AI",
     description:
-      "A personal project I developed to showcase a curated selection of Halloween products. The challenge was to create a visually engaging and user-friendly online store that captured the spirit of the season. I used React to build a dynamic and responsive interface ",
-    url: "https://inquisitive-jelly-27604d.netlify.app/#",
-    previewImage: ProjectHallowen,
-    technologies: ["React", "Sass", "HTML", "Javascript"],
+      "As Product Manager and Developer, I led the MVP design and development for Kreatoors.ai — an AI-powered SaaS platform helping startups generate brand assets and pitch-ready websites instantly. I defined core features, coordinated engineering efforts, and drove MVP launch in just 3 months.",
+    url: "https://kreatoors.ai/",
+    previewImage: ProjectKreatoors, // make sure to import this image
+    technologies: ["React", "Next.js", "Node.js", "Tailwind", "Figma", "AI APIs"],
+  },
+  {
+    name: "HelloMe Money",
+    description:
+      "Worked as a freelance Product & Webflow Expert to design and ship HelloMe Money’s launch site. Collaborated with stakeholders to translate brand and business needs into a functional Webflow experience that drove early traction and conversion.",
+    url: "https://www.hellomemoney.com/",
+    previewImage: ProjectHelloME, // make sure to import this image
+    technologies: ["Webflow", "Figma", "Client-First", "SEO", "CMS Collections"],
   },
   {
     name: "Wingie",
     description:
-      "A platform for comparing and finding affordable flights, as well as booking and purchasing tickets safely and easily in a few simple clicks.",
+      "Led the frontend product delivery of a travel booking platform that allows users to compare and purchase flight tickets easily. Worked closely with design, backend, and QA to ship new features and improve UX performance.",
     url: "https://www.wingie.com",
     previewImage: ProjectWingie,
     technologies: [
@@ -263,36 +272,24 @@ export const PROJECTS: ProjectDetails[] = [
       "Redux",
     ],
   },
-
   {
     name: "Cosmetics Republic",
     description:
-      "Cosmetics Republic is a platform I built to connect hair care professionals with quality professional products and educational resources. The site features a curated selection of brands like Ladies Republic Hair Care, Bravo Professional Grooming, Salerm Cosmetics, and Incantodidonna, offering a wide range of products to meet the needs of stylists and beauty enthusiasts. The platform also provides opportunities for professional development, helping to foster a strong and connected community within the hair care industry.",
+      "Oversaw product planning and delivery for an e-commerce platform connecting haircare professionals with premium brands. Collaborated with design and engineering to launch a scalable storefront and content system, enhancing engagement and driving conversions.",
     url: "https://cosmeticsrepublic.com/",
     previewImage: ProjectCosmetic,
-    technologies: [
-      "React",
-      "Typescript",
-      "SASS",
-      "Redux Toolkit",
-      "React Query",
-    ],
+    technologies: ["React", "Typescript", "SASS", "Redux Toolkit", "React Query"],
   },
   {
-    name: "Cresent University",
+    name: "Crescent University",
     description:
-      "Crescent University is a website I built using a combination of HTML, CSS, JavaScript, and a content management system (CMS). The project involved integrating various data sources, creating custom interactive elements, and optimizing the site for speed and performance. I also implemented a secure authentication system to protect sensitive user data. The result is a robust and dynamic website that effectively represents the university brand and mission.",
+      "Managed end-to-end delivery of the official university website, coordinating with stakeholders to define requirements, prioritize features, and ensure data integration and user security. Focused on speed, accessibility, and brand alignment.",
     url: "https://crescent-university.edu.ng/",
     previewImage: ProjectCresent,
-    technologies: [
-      "React",
-      "Typescript",
-      "SASS",
-      "Redux Toolkit",
-      "React Query",
-    ],
+    technologies: ["React", "Typescript", "SASS", "Redux Toolkit", "React Query"],
   },
 ];
+
 
 export const TESTIMONIALS: TestimonialDetails[] = [
   {
@@ -317,6 +314,7 @@ export const TESTIMONIALS: TestimonialDetails[] = [
       "Chiagozie was extremely easy and pleasant to work with and he truly cares about the project being a success. Chiagozie has a high level of knowledge and was able to work on my MERN stack application without any issues.",
   },
 ];
+
 
 
 
