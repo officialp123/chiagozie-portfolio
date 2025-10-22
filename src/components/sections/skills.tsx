@@ -15,10 +15,10 @@ const SkillsSection = () => {
           The skills, tools and technologies I am really good at:
         </Typography>
       </div>
-<Typography variant="h2" className="mt-4">
+<Typography variant="h2" className="mt-4 text-center">
   🧭 Product Management & Delivery
 </Typography>
-<ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 mt-2">
+<ul className="grid grid-cols-3 gap-y-4 md:grid-cols-6 md:gap-y-8 lg:grid-cols-8 lg:gap-y-12 mt-2">
   <li>Product Strategy</li>
   <li>Roadmapping</li>
   <li>Agile / Scrum</li>
@@ -42,5 +42,6 @@ const SkillsSection = () => {
 };
 
 export default SkillsSection;
+
 
 
