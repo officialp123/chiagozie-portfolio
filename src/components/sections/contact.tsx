@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Copy, Mail, Phone } from 'lucide-react';
+import { Copy, Mail } from 'lucide-react';
 // import Link from 'next/link';
 
 import SocialIcons from '@/components/data-display/social-icons';
@@ -82,4 +82,5 @@ const ContactSection = () => {
 };
 
 export default ContactSection;
+
 
