@@ -77,7 +77,66 @@ export const SOCIAL_LINKS = [
 ];
 
 export const TECHNOLOGIES: TechDetails[] = [
+    {
+    label: "Jira",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg",
+    url: "https://www.atlassian.com/software/jira",
+  },
   {
+    label: "Confluence",
+    logo: "https://seeklogo.com/images/C/confluence-logo-B049E1B5C0-seeklogo.com.png",
+    url: "https://www.atlassian.com/software/confluence",
+  },
+  {
+    label: "Notion",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png",
+    url: "https://www.notion.so/",
+  },
+  {
+    label: "Aha!",
+    logo: "https://static.aha.io/assets/marketing/press/logo-icon-blue-72e04868d86da15666fbbf21f6cb7a5cfe5b09fc61a7997c7e29c2c653f7ed03.svg",
+    url: "https://www.aha.io/",
+  },
+  {
+    label: "Miro",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Miro_logo.svg/2048px-Miro_logo.svg.png",
+    url: "https://miro.com/",
+  },
+  {
+    label: "Mixpanel",
+    logo: "https://seeklogo.com/images/M/mixpanel-logo-7247B371BB-seeklogo.com.png",
+    url: "https://mixpanel.com/",
+  },
+  {
+    label: "Amplitude",
+    logo: "https://seeklogo.com/images/A/amplitude-logo-6B5459A00D-seeklogo.com.png",
+    url: "https://amplitude.com/",
+  },
+  {
+    label: "Google Analytics",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/6/6b/Google_Analytics_Logo.png",
+    url: "https://marketingplatform.google.com/about/analytics/",
+  },
+  {
+    label: "Hotjar",
+    logo: "https://seeklogo.com/images/H/hotjar-logo-A992282842-seeklogo.com.png",
+    url: "https://www.hotjar.com/",
+  },
+  {
+    label: "Fullstory",
+    logo: "https://www.fullstory.com/images/fullstory-logo-og.png",
+    url: "https://www.fullstory.com/",
+  },
+  {
+    label: "Airtable",
+    logo: "https://seeklogo.com/images/A/airtable-logo-216B6AF363-seeklogo.com.png",
+    url: "https://www.airtable.com/",
+  },
+  {
+    label: "Zapier",
+    logo: "https://cdn.worldvectorlogo.com/logos/zapier.svg",
+    url: "https://zapier.com/",
+  }, {
     label: "Javascript",
     logo: LogoJavascript,
     url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
@@ -102,14 +161,12 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoNodejs,
     url: "https://nodejs.org/en",
   },
-
   {
     label: "Socket.io",
     logo: LogoSocket,
     darkModeLogo: LogoSocketLight,
     url: "https://socket.io/",
   },
-
   {
     label: "Sass/Scss",
     logo: LogoSass,
@@ -130,7 +187,6 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoWebflow,
     url: "https://webflow.com/",
   },
-
   {
     label: "Cypress",
     logo: LogoCypress,
@@ -147,6 +203,7 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoGit,
     url: "https://git-scm.com/",
   },
+ 
 ];
 
 export const EXPERIENCES: ExperienceDetails[] = [
@@ -268,3 +325,4 @@ export const TESTIMONIALS: TestimonialDetails[] = [
       "Chiagozie was extremely easy and pleasant to work with and he truly cares about the project being a success. Chiagozie has a high level of knowledge and was able to work on my MERN stack application without any issues.",
   },
 ];
+
