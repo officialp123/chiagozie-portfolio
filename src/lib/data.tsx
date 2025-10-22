@@ -77,134 +77,108 @@ export const SOCIAL_LINKS = [
 ];
 
 export const TECHNOLOGIES: TechDetails[] = [
-    {
+  {
     label: "Jira",
-    logo: "",
     url: "https://www.atlassian.com/software/jira",
   },
   {
     label: "Confluence",
-    logo: "",
     url: "https://www.atlassian.com/software/confluence",
   },
   {
     label: "Notion",
-    logo: "",
     url: "https://www.notion.so/",
   },
   {
     label: "Aha!",
-    logo: "",
     url: "https://www.aha.io/",
   },
   {
     label: "Miro",
-    logo: "",
     url: "https://miro.com/",
   },
   {
     label: "Mixpanel",
-    logo: "",
     url: "https://mixpanel.com/",
   },
   {
     label: "Amplitude",
-    logo: "",
     url: "https://amplitude.com/",
   },
   {
     label: "Google Analytics",
-    logo: "",
     url: "https://marketingplatform.google.com/about/analytics/",
   },
   {
     label: "Hotjar",
-    logo: "",
     url: "https://www.hotjar.com/",
   },
   {
     label: "Fullstory",
-    logo: "",
     url: "https://www.fullstory.com/",
   },
   {
     label: "Airtable",
-    logo: "",
     url: "https://www.airtable.com/",
   },
   {
     label: "Zapier",
-    logo: "",
     url: "https://zapier.com/",
-  }, {
+  },
+  {
     label: "Javascript",
- 
     url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
   },
   {
     label: "Typescript",
-    logo: LogoTypescript,
     url: "https://www.typescriptlang.org/",
   },
   {
     label: "React",
-    logo: LogoReact,
     url: "https://react.dev/",
   },
   {
     label: "Next.js",
-    logo: LogoNextjs,
     url: "https://nextjs.org/",
   },
   {
     label: "Node.js",
-    logo: LogoNodejs,
     url: "https://nodejs.org/en",
   },
   {
     label: "Socket.io",
-    logo: LogoSocket,
-    darkModeLogo: LogoSocketLight,
     url: "https://socket.io/",
   },
   {
     label: "Sass/Scss",
-    logo: LogoSass,
     url: "https://sass-lang.com/",
   },
   {
     label: "Tailwindcss",
-    logo: LogoTailwindcss,
     url: "https://tailwindcss.com/",
   },
   {
     label: "Figma",
-    logo: LogoFigma,
     url: "https://www.figma.com/",
   },
   {
     label: "Webflow",
-    logo: LogoWebflow,
     url: "https://webflow.com/",
   },
   {
     label: "Cypress",
-    logo: LogoCypress,
-    darkModeLogo: LogoCypressLight,
     url: "https://www.cypress.io/",
   },
   {
     label: "Storybook",
-    logo: LogoStorybook,
     url: "https://storybook.js.org/",
   },
   {
     label: "Git",
-    logo: LogoGit,
     url: "https://git-scm.com/",
   },
- 
 ];
+
 
 export const EXPERIENCES: ExperienceDetails[] = [
   {
@@ -325,5 +299,6 @@ export const TESTIMONIALS: TestimonialDetails[] = [
       "Chiagozie was extremely easy and pleasant to work with and he truly cares about the project being a success. Chiagozie has a high level of knowledge and was able to work on my MERN stack application without any issues.",
   },
 ];
+
 
 
