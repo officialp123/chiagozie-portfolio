@@ -10,7 +10,7 @@ import Footer from "@/components/layout/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const title = "Chiagozie Uchenna | Product Manager + Technical Strategist";
+const title = "Chiagozie Uchenna | Product Manager | Technical Strategist";
 const description =
   "Product leader with technical expertise. I help companies design, build, and scale user-centric digital experiences from MVP to market traction.";
 const url = "https://www.linkedin.com/in/chiagozie-uchenna/";
@@ -95,3 +95,4 @@ export default function RootLayout({
     </html>
   );
 }
+
