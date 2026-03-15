@@ -222,7 +222,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     summary: [
       "Founded and scaled a digital product agency serving SMBs with web-based solutions across multiple industries.",
       "Oversaw product development, client strategy, and cross-functional delivery teams to support over 25 successful launches.",
-      "Closed multi-million dollar contracts through consultative product selling and pipeline strategy — increasing win rate by 22% YoY.",
+      "Successfully transitioned a community-focused software project from the conceptual phase to a functional, revenue-generating model, demonstrating the practical application of scalable architecture.",
     ],
   },
   {
